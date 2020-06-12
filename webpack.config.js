@@ -11,7 +11,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'build'), // 必须是绝对路径
         filename: 'main.js',
-        publicPath: '/githubpage-examples/build/' // 通常是CDN地址
+        publicPath: '/githubpage-examples/' // 通常是CDN地址
     },
     module: {
         rules: [
